@@ -333,9 +333,10 @@ img {
   animation-name: startModalWindow;
   animation-duration: 1100ms;
   animation-timing-function: linear;
-    position: fixed;
+  position: fixed;
   width: 408px;
   height: 576px;
+  padding: 24px;
   
   background: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -346,8 +347,6 @@ img {
 .button-clouse {
   width: 24px;
   height: 24px;
-  margin-top: 24px;
-  margin-right: 24px;
   margin-left: auto;
   display: flex;
   align-items: center;
